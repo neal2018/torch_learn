@@ -88,7 +88,7 @@ if __name__ == "__main__":
                 running_loss = 0
         if epoch % 10 == 9:
             torch.save(net.state_dict(), PATH)
-            print(f'{epoch=}, saved')
+            print(f'{epoch}, saved')
 
     print("training done")
 
